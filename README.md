@@ -1,15 +1,4 @@
-cd "C:\Users\user\Downloads\muun-wallet-github-pack\muun-wallet-docs-setup"
 
-$headers = @{
-    Authorization = "Bearer $env:GITHUB_TOKEN"
-    Accept = "application/vnd.github+json"
-    "X-GitHub-Api-Version" = "2022-11-28"
-}
-
-$newReadme = @'
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/muun-network/muun-wallet/main/assets/logo.png" width="80" alt="Muun Wallet" />
 
 # Muun Wallet Docs
 
